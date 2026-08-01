@@ -1,7 +1,18 @@
 aid: scape
 name: Scape
-description: Scape is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Scape (Scape Wellness) is an on-demand wellness technology platform in Latin
+  America that lets customers book professional spa experiences delivered to
+  their home, apartment, hotel, Airbnb, office, or corporate event. Certified,
+  identity-verified therapists arrive with all required equipment — professional
+  massage table, towels, oils, and materials. The catalog spans relaxing, deep
+  tissue, sports, prenatal, lymphatic drainage, reflexology, and couples
+  massages; facials; body treatments; and combined facial-plus-massage
+  experiences, alongside personal and corporate gift cards and workplace
+  wellness programs. Scape operates in Mexico, Colombia, Chile, and the
+  Dominican Republic via iOS and Android apps, with payments through MercadoPago
+  and PayPal. It is a consumer booking platform and does not publish a public
+  developer API or developer portal. Backed by 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/scape/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.scapewellness.com/favicon.ico
 tags:
 - Company
+- Wellness
+- Spa
+- On-Demand
+- Massage
+- Health
+- Consumer
+- Latin America
+- Mobile App
+- Bookings
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/scape-domain-security.yml
 - type: Website
-  url: https://scape.mx
+  url: https://www.scapewellness.com
+- type: About
+  url: https://www.scapewellness.com/about-us
+- type: Blog
+  url: https://www.scapewellness.com/blog
+- type: Support
+  url: https://www.scapewellness.com/contact-us
+- type: HelpCenter
+  url: https://www.scapewellness.com/faq
+- type: TermsOfService
+  url: https://www.scapewellness.com/terms-conditions-general
+- type: PrivacyPolicy
+  url: https://www.scapewellness.com/privacy
+- type: LLMsTxt
+  url: llms/scape-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
